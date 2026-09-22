@@ -1,0 +1,196 @@
+Year,Violence Type,Incident Count,Death Count,Victim Age,Literate Scale
+2010,Rape,810,66,25-30,Low
+2011,Rape,1040,96,31+,Low
+2012,Rape,904,106,0-18,Low
+2013,Rape,1128,94,25-30,Medium
+2014,Rape,1054,99,25-30,Medium
+2015,Rape,1234,85,31+,Medium
+2016,Rape,1215,44,0-18,Medium
+2017,Rape,1431,58,0-18,Medium
+2018,Rape,1070,63,25-30,High
+2019,Rape,1957,96,19-24,High
+2020,Rape,1546,36,25-30,High
+2021,Rape,1390,38,25-30,High
+2022,Rape,1127,46,25-30,High
+2023,Rape,737,48,25-30,High
+2024,Rape,610,29,31+,High
+2010,Domestic Worker Abuse,64,41,0-18,Low
+2011,Domestic Worker Abuse,115,72,31+,Low
+2012,Domestic Worker Abuse,97,59,31+,Low
+2013,Domestic Worker Abuse,89,53,31+,Medium
+2014,Domestic Worker Abuse,86,49,25-30,Medium
+2015,Domestic Worker Abuse,70,33,19-24,Medium
+2016,Domestic Worker Abuse,63,32,0-18,Medium
+2017,Domestic Worker Abuse,30,17,19-24,Medium
+2018,Domestic Worker Abuse,87,62,31+,High
+2019,Domestic Worker Abuse,10,1,31+,High
+2020,Domestic Worker Abuse,12,6,19-24,High
+2021,Domestic Worker Abuse,0,0,19-24,High
+2022,Domestic Worker Abuse,13,0,19-24,High
+2023,Domestic Worker Abuse,25,12,31+,High
+2024,Domestic Worker Abuse,24,15,31+,High
+2010,Dowry,265,137,0-18,Low
+2011,Dowry,584,330,0-18,Low
+2012,Dowry,558,295,31+,Low
+2013,Dowry,439,245,19-24,Medium
+2014,Dowry,431,236,19-24,Medium
+2015,Dowry,386,203,0-18,Medium
+2016,Dowry,362,173,31+,Medium
+2017,Dowry,389,181,0-18,Medium
+2018,Dowry,212,102,0-18,High
+2019,Dowry,154,70,25-30,High
+2020,Dowry,117,52,25-30,High
+2021,Dowry,138,45,25-30,High
+2022,Dowry,165,65,19-24,High
+2023,Dowry,122,52,31+,High
+2024,Dowry,68,33,31+,High
+2010,Acid Attack,119,1,31+,Low
+2011,Acid Attack,83,2,31+,Low
+2012,Acid Attack,67,1,25-30,Low
+2013,Acid Attack,50,8,19-24,Medium
+2014,Acid Attack,55,8,19-24,Medium
+2015,Acid Attack,37,0,25-30,Medium
+2016,Acid Attack,39,1,19-24,Medium
+2017,Acid Attack,40,2,25-30,Medium
+2018,Acid Attack,19,3,31+,High
+2019,Acid Attack,26,2,25-30,High
+2020,Acid Attack,25,4,31+,High
+2021,Acid Attack,22,4,31+,High
+2022,Acid Attack,22,0,0-18,High
+2023,Acid Attack,8,0,25-30,High
+2024,Acid Attack,17,2,0-18,High
+2010,Burnt,92,21,25-30,Low
+2011,Burnt,73,38,25-30,Low
+2012,Burnt,57,30,0-18,Low
+2013,Burnt,53,27,0-18,Medium
+2014,Burnt,58,36,25-30,Medium
+2015,Burnt,59,24,19-24,Medium
+2016,Burnt,90,23,31+,Medium
+2017,Burnt,91,34,0-18,Medium
+2018,Burnt,73,19,31+,High
+2019,Burnt,51,11,19-24,High
+2020,Burnt,29,13,19-24,High
+2021,Burnt,23,10,19-24,High
+2022,Burnt,25,12,0-18,High
+2023,Burnt,34,20,19-24,High
+2024,Burnt,25,10,0-18,High
+2010,Sexual Harrasment,1023,26,19-24,Low
+2011,Sexual Harrasment,1497,27,31+,Low
+2012,Sexual Harrasment,908,17,31+,Low
+2013,Sexual Harrasment,688,24,25-30,Medium
+2014,Sexual Harrasment,625,21,31+,Medium
+2015,Sexual Harrasment,521,22,25-30,Medium
+2016,Sexual Harrasment,529,11,31+,Medium
+2017,Sexual Harrasment,525,34,0-18,Medium
+2018,Sexual Harrasment,388,14,31+,High
+2019,Sexual Harrasment,380,17,25-30,High
+2020,Sexual Harrasment,176,1,25-30,High
+2021,Sexual Harrasment,174,1,19-24,High
+2022,Sexual Harrasment,288,7,0-18,High
+2023,Sexual Harrasment,242,9,31+,High
+2024,Sexual Harrasment,226,2,19-24,High
+2010,Early Marriage,166,0,31+,Low
+2011,Early Marriage,85,0,31+,Low
+2012,Early Marriage,88,0,19-24,Low
+2013,Early Marriage,69,0,19-24,Medium
+2014,Early Marriage,95,0,19-24,Medium
+2015,Early Marriage,99,0,19-24,Medium
+2016,Early Marriage,178,0,19-24,Medium
+2017,Early Marriage,457,0,31+,Medium
+2018,Early Marriage,214,0,19-24,High
+2019,Early Marriage,266,0,0-18,High
+2020,Early Marriage,121,0,25-30,High
+2021,Early Marriage,328,0,19-24,High
+2022,Early Marriage,90,0,19-24,High
+2023,Early Marriage,73,0,31+,High
+2024,Early Marriage,68,0,19-24,High
+2010,Women Trafficking,827,0,19-24,Low
+2011,Women Trafficking,335,0,19-24,Low
+2012,Women Trafficking,162,0,31+,Low
+2013,Women Trafficking,158,0,19-24,Medium
+2014,Women Trafficking,148,0,25-30,Medium
+2015,Women Trafficking,162,0,31+,Medium
+2016,Women Trafficking,177,0,25-30,Medium
+2017,Women Trafficking,238,0,31+,Medium
+2018,Women Trafficking,186,0,19-24,High
+2019,Women Trafficking,175,0,25-30,High
+2020,Women Trafficking,227,0,31+,High
+2021,Women Trafficking,235,0,0-18,High
+2022,Women Trafficking,244,0,19-24,High
+2023,Women Trafficking,178,0,31+,High
+2024,Women Trafficking,127,0,0-18,High
+2010,Rejection Based Violence,42,0,31+,Low
+2011,Rejection Based Violence,46,0,0-18,Low
+2012,Rejection Based Violence,37,0,19-24,Low
+2013,Rejection Based Violence,20,0,25-30,Medium
+2014,Rejection Based Violence,24,0,0-18,Medium
+2015,Rejection Based Violence,12,0,31+,Medium
+2016,Rejection Based Violence,16,0,19-24,Medium
+2017,Rejection Based Violence,22,0,0-18,Medium
+2018,Rejection Based Violence,2,0,31+,High
+2019,Rejection Based Violence,2,0,31+,High
+2020,Rejection Based Violence,1,0,31+,High
+2021,Rejection Based Violence,4,0,0-18,High
+2022,Rejection Based Violence,0,0,0-18,High
+2023,Rejection Based Violence,0,0,0-18,High
+2024,Rejection Based Violence,0,0,25-30,High
+2010,Societal Coercion,471,441,0-18,Low
+2011,Societal Coercion,488,449,0-18,Low
+2012,Societal Coercion,504,435,0-18,Low
+2013,Societal Coercion,445,386,25-30,Medium
+2014,Societal Coercion,375,341,0-18,Medium
+2015,Societal Coercion,359,336,31+,Medium
+2016,Societal Coercion,388,337,0-18,Medium
+2017,Societal Coercion,441,400,31+,Medium
+2018,Societal Coercion,323,258,31+,High
+2019,Societal Coercion,276,208,31+,High
+2020,Societal Coercion,182,164,25-30,High
+2021,Societal Coercion,136,121,25-30,High
+2022,Societal Coercion,244,202,25-30,High
+2023,Societal Coercion,285,241,0-18,High
+2024,Societal Coercion,222,191,31+,High
+2010,Police Brutality,5,0,25-30,Low
+2011,Police Brutality,4,0,25-30,Low
+2012,Police Brutality,59,0,0-18,Low
+2013,Police Brutality,37,0,25-30,Medium
+2014,Police Brutality,53,0,0-18,Medium
+2015,Police Brutality,37,0,19-24,Medium
+2016,Police Brutality,22,0,25-30,Medium
+2017,Police Brutality,32,0,19-24,Medium
+2018,Police Brutality,9,0,0-18,High
+2019,Police Brutality,9,0,31+,High
+2020,Police Brutality,1,0,25-30,High
+2021,Police Brutality,0,0,0-18,High
+2022,Police Brutality,5,0,31+,High
+2023,Police Brutality,8,0,31+,High
+2024,Police Brutality,2,0,19-24,High
+2010,Lethal Violence,1151,1118,0-18,Low
+2011,Lethal Violence,937,886,31+,Low
+2012,Lethal Violence,963,900,25-30,Low
+2013,Lethal Violence,873,829,25-30,Medium
+2014,Lethal Violence,966,898,19-24,Medium
+2015,Lethal Violence,765,714,31+,Medium
+2016,Lethal Violence,838,762,0-18,Medium
+2017,Lethal Violence,772,713,25-30,Medium
+2018,Lethal Violence,527,488,31+,High
+2019,Lethal Violence,600,562,31+,High
+2020,Lethal Violence,503,468,19-24,High
+2021,Lethal Violence,531,444,25-30,High
+2022,Lethal Violence,559,507,25-30,High
+2023,Lethal Violence,518,499,0-18,High
+2024,Lethal Violence,553,528,25-30,High
+2010,Misuse Of Religious Edicts,39,0,0-18,Low
+2011,Misuse Of Religious Edicts,64,0,25-30,Low
+2012,Misuse Of Religious Edicts,44,0,19-24,Low
+2013,Misuse Of Religious Edicts,24,0,25-30,Medium
+2014,Misuse Of Religious Edicts,29,0,0-18,Medium
+2015,Misuse Of Religious Edicts,28,0,0-18,Medium
+2016,Misuse Of Religious Edicts,27,0,19-24,Medium
+2017,Misuse Of Religious Edicts,45,0,25-30,Medium
+2018,Misuse Of Religious Edicts,12,0,25-30,High
+2019,Misuse Of Religious Edicts,24,0,19-24,High
+2020,Misuse Of Religious Edicts,8,0,25-30,High
+2021,Misuse Of Religious Edicts,2,0,25-30,High
+2022,Misuse Of Religious Edicts,9,0,0-18,High
+2023,Misuse Of Religious Edicts,12,0,25-30,High
+2024,Misuse Of Religious Edicts,3,0,25-30,High
