@@ -1,207 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Women's Violence Severity Prediction</title>
-
+    <title>Women's Violence Analysis & Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
-
 
 <body>
 
-    <h1>Women's Violence Severity Prediction</h1>
+<nav>
+    <a href="/" class="brand">WVS</a>
 
-    <p>
-        Enter the information below to predict the severity category.
-    </p>
+    <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/predict">Make Prediction</a>
+    </div>
+</nav>
 
+<main>
 
-    <form action="/predict" method="POST">
+    <!-- HERO SECTION -->
 
+    <section class="hero">
 
-        <!-- Year -->
+        <div class="hero-content">
 
-        <label for="year">Year:</label>
+            <div class="badge">
+                ✦ DATA-DRIVEN ANALYSIS
+            </div>
 
-        <input
-            type="number"
-            id="year"
-            name="year"
-            min="1900"
-            max="2100"
-            required
-        >
+            <h1>
+                Understanding
+                <span>Violence Against Women</span>
+                Through Data
+            </h1>
 
-        <br><br>
+            <p>
+                An interactive machine learning system that explores
+                patterns in women's violence data and predicts violence
+                severity using historical indicators.
+            </p>
 
+            <div class="hero-buttons">
+                <a href="/predict" class="primary-button">
+                    Explore a Prediction →
+                </a>
 
-        <!-- Violence Type -->
+                <a href="#about" class="secondary-button">
+                    Explore the Project
+                </a>
+            </div>
 
-        <label for="violence_type">Violence Type:</label>
+        </div>
 
-        <select
-            id="violence_type"
-            name="violence_type"
-            required
-        >
+        <div class="hero-visual">
 
-            <option value="">Select violence type</option>
+            <div class="visual-card">
+                <div class="visual-icon">◈</div>
 
-            <option value="Rape">Rape</option>
+                <div>
+                    <span>Machine Learning</span>
+                    <strong>Severity Prediction</strong>
+                </div>
+            </div>
 
-            <option value="Domestic Worker Abuse">
-                Domestic Worker Abuse
-            </option>
+            <div class="floating-card card-one">
+                <span>DATA</span>
+                <strong>Analysis</strong>
+            </div>
 
-            <option value="Dowry">
-                Dowry
-            </option>
+            <div class="floating-card card-two">
+                <span>ML</span>
+                <strong>Prediction</strong>
+            </div>
 
-            <option value="Acid Attack">
-                Acid Attack
-            </option>
+        </div>
 
-            <option value="Burnt">
-                Burnt
-            </option>
+    </section>
 
-            <option value="Sexual Harasment">
-                Sexual Harasment
-            </option>
 
-            <option value="Early Marriage">
-                Early Marriage
-            </option>
+    <!-- FEATURES -->
 
-            <option value="Women Trafficking">
-                Women Trafficking
-            </option>
+    <section class="features" id="about">
 
-            <option value="Rejection Based Violence">
-                Rejection Based Violence
-            </option>
+        <div class="section-heading">
+            <span>THE PROJECT</span>
+            <h2>From Data to Insight</h2>
+            <p>
+                This project combines data analysis, statistics and
+                machine learning to investigate patterns within
+                women's violence data.
+            </p>
+        </div>
 
-            <option value="Societal Coercion">
-                Societal Coercion
-            </option>
 
-            <option value="Police Brutality">
-                Police Brutality
-            </option>
+        <div class="feature-grid">
 
-            <option value="Lethal Violence">
-                Lethal Violence
-            </option>
+            <div class="feature-card">
+                <div class="feature-number">01</div>
+                <h3>Explore the Data</h3>
+                <p>
+                    Examine patterns across violence types, age groups,
+                    literacy levels, incidents and deaths.
+                </p>
+            </div>
 
-            <option value="Misuse Of Religious Edicts">
-                Misuse Of Religious Edicts
-            </option>
 
-        </select>
+            <div class="feature-card">
+                <div class="feature-number">02</div>
+                <h3>Analyze Patterns</h3>
+                <p>
+                    Use statistical and exploratory analysis to identify
+                    relationships and important trends within the data.
+                </p>
+            </div>
 
-        <br><br>
 
+            <div class="feature-card">
+                <div class="feature-number">03</div>
+                <h3>Predict Severity</h3>
+                <p>
+                    Apply a trained Random Forest model to classify
+                    violence severity as Low, Medium or High.
+                </p>
+            </div>
 
-        <!-- Victim Age -->
+        </div>
 
-        <label for="victim_age">Victim Age:</label>
+    </section>
 
-        <select
-            id="victim_age"
-            name="victim_age"
-            required
-        >
 
-            <option value="">Select age group</option>
+    <!-- PROBLEM STATEMENT -->
 
-            <option value="0-18">0-18</option>
+    <section class="problem-section">
 
-            <option value="19-24">19-24</option>
+        <div class="problem-content">
 
-            <option value="25-30">25-30</option>
+            <span>WHY THIS PROJECT?</span>
 
-            <option value="31+">31+</option>
+            <h2>
+                Turning information into
+                meaningful insight.
+            </h2>
 
-        </select>
+            <p>
+                Violence against women is a complex social issue.
+                Data analysis can help reveal patterns in reported
+                incidents and provide a structured way to explore
+                factors associated with violence severity.
+            </p>
 
-        <br><br>
+            <a href="/predict" class="text-link">
+                Try the prediction system →
+            </a>
 
+        </div>
 
-        <!-- Literacy -->
+        <div class="problem-mark">
+            <span>DATA</span>
+            <strong>×</strong>
+            <span>ML</span>
+            <strong>→</strong>
+            <span>INSIGHT</span>
+        </div>
 
-        <label for="literate_scale">Literate Scale:</label>
+    </section>
 
-        <select
-            id="literate_scale"
-            name="literate_scale"
-            required
-        >
 
-            <option value="">Select literacy level</option>
+    <!-- CALL TO ACTION -->
 
-            <option value="Low">Low</option>
+    <section class="cta">
 
-            <option value="Medium">Medium</option>
+        <span>READY TO EXPLORE?</span>
 
-            <option value="High">High</option>
+        <h2>See what the model predicts.</h2>
 
-        </select>
+        <p>
+            Enter a few characteristics and receive a predicted
+            violence severity category.
+        </p>
 
-        <br><br>
+        <a href="/predict" class="primary-button">
+            Start a Prediction →
+        </a>
 
+    </section>
 
-        <!-- Death Count -->
+</main>
 
-        <label for="death_count">Death Count:</label>
 
-        <input
-            type="number"
-            id="death_count"
-            name="death_count"
-            min="0"
-            required
-        >
-
-        <br><br>
-
-
-        <!-- Incident Count -->
-
-        <label for="incident_count">Incident Count:</label>
-
-        <input
-            type="number"
-            id="incident_count"
-            name="incident_count"
-            min="0"
-            required
-        >
-
-        <br><br>
-
-
-        <button type="submit">
-            Predict Severity
-        </button>
-
-
-    </form>
-
-
-    {% if prediction %}
-
-        <h2>Predicted Severity:</h2>
-
-        <h3>{{ prediction }}</h3>
-
-    {% endif %}
-
+<footer>
+    <p>Women's Violence Analysis & Prediction System</p>
+    <span>Developed with Python • Data Analysis • Machine Learning • Flask</span>
+</footer>
 
 </body>
-
 </html>

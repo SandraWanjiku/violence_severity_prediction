@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/predict">Make Prediction</a>
+</nav>
+
+<div class="container">
+    <h1>Violence Severity Prediction</h1>
+    <p>Enter the available information below to predict the violence severity category.</p>
+
+    <form action="/predict" method="POST">
+
+        <label for="year">Year</label>
+        <input type="number" id="year" name="year" required>
+
+        <label for="violence_type">Violence Type</label>
+        <select id="violence_type" name="violence_type" required>
+            <option value="">Select violence type</option>
+            <option value="Burnt">Burnt</option>
+            <option value="Domestic Worker Abuse">Domestic Worker Abuse</option>
+            <option value="Dowry">Dowry</option>
+            <option value="Early Marriage">Early Marriage</option>
+            <option value="Lethal Violence">Lethal Violence</option>
+            <option value="Misuse Of Religious Edicts">Misuse Of Religious Edicts</option>
+            <option value="Police Brutality">Police Brutality</option>
+            <option value="Rape">Rape</option>
+            <option value="Rejection Based Violence">Rejection Based Violence</option>
+            <option value="Sexual Harassment">Sexual Harassment</option>
+            <option value="Societal Coercion">Societal Coercion</option>
+            <option value="Women Trafficking">Women Trafficking</option>
+        </select>
+
+        <label for="victim_age">Victim Age</label>
+        <select id="victim_age" name="victim_age" required>
+            <option value="">Select age group</option>
+            <option value="0-18">0-18</option>
+            <option value="19-24">19-24</option>
+            <option value="25-30">25-30</option>
+            <option value="31+">31+</option>
+        </select>
+
+        <label for="literate_scale">Literacy Scale</label>
+        <select id="literate_scale" name="literate_scale" required>
+            <option value="">Select literacy level</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+        </select>
+
+        <label for="death_count">Death Count</label>
+        <input type="number" id="death_count" name="death_count" min="0" required>
+
+        <label for="incident_count">Incident Count</label>
+        <input type="number" id="incident_count" name="incident_count" min="0" required>
+
+        <button type="submit">Predict Severity</button>
+
+    </form>
+</div>
+
+</body>
+</html>
